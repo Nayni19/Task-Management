@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Task Management</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #440A67;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Taskager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong></a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light ml=auto"><i class="bi bi-plus-lg"></i> Add Task</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="btn btn-outline-dark"><i
+                                        class="bi bi-pencil-fill"></i></button>
+                                <button type="button" class="btn btn-outline-danger"><i
+                                        class="bi bi-trash-fill"></i></button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://media.istockphoto.com/photos/green-leaf-with-dew-on-dark-nature-background-picture-id1050634172?k=20&m=1050634172&s=612x612&w=0&h=w0nk0tsmBysY4S119AhMJuUlof3Wf5FkJ3t2MD50oUE="
+                                class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Task Title</h5>
+                                <p class="card-text">Task Description</p>
+                                <span class="badge bg-dark">Task Type</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-outline-dark float-end">OPEN TASK</button>
+                          </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
